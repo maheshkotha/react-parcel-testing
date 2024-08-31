@@ -14,7 +14,7 @@
 
 # Configure for Testing.
 - Install jest
-- Install @testing-library/react,  @testing-library/dom
+
 
 - - run the command `npm run test`
       `
@@ -40,6 +40,7 @@
 
 Create a `babel.config.js` file in the root directory and add the following configuration:
 
+
 ```javascript
 module.exports = {
   presets: [
@@ -48,6 +49,7 @@ module.exports = {
   ],
 };
 ```
+- Install @babel/preset-react
 
 
 - crate file in root folder, .parcelrc for configuration --> for react
@@ -67,12 +69,12 @@ module.exports = {
 
 # Configure React Componets Test
 
+- Enable for JSX
+- Install @testing-library/react,  @testing-library/dom, @testing-library/jest-dom
+
 - jest configuration --> npx jest --init
 - If you are using jest 28 or later jest-environment-jsdom package now must be installed separately.
 
- 
-- Enable for JSX
 - Install jest-environment-jsdom
-- Install @testing-library/jest-dom
 
 
