@@ -70,7 +70,7 @@ module.exports = {
 # Configure React Componets Test
 
 - Enable for JSX
-- Install @testing-library/react,  @testing-library/dom, @testing-library/jest-dom
+- Install @testing-library/react, @testing-library/dom, @testing-library/jest-dom
 
 - jest configuration --> npx jest --init
 - If you are using jest 28 or later jest-environment-jsdom package now must be installed separately.
@@ -78,3 +78,9 @@ module.exports = {
 - Install jest-environment-jsdom
 
 
+
+********************* ===================== *******************************
+********************* ===================== *******************************
+
+# Group the Test in Perticular Component 
+- using describe
